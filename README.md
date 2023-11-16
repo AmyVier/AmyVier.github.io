@@ -4,5 +4,4 @@
 
 > - [ ] not done?
 
-- [x] done probably
-- [ ] \(Optional) No idea.
+- [x] done probably - [ ] \(Optional) No idea.
