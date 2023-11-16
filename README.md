@@ -2,6 +2,7 @@
 
 ## just practicing
 
-- [ ] not done?
+> - [ ] not done?
+
 - [x] done probably
 - [ ] \(Optional) No idea.
