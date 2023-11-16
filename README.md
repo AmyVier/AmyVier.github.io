@@ -13,8 +13,8 @@ This projects aims to clone the TrickyBot main page using **HTML/CSS** and **Jav
   - [ ] Header
   - [ ] Content sections
   - [ ] Footer
-  - [ ] Respond to width changes
 - CSS
+  - [ ] Respond to width changes
   - [ ] Color
   - [ ] Font
 - JavaScript
