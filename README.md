@@ -1,9 +1,5 @@
 # soloproject-tier1-tickybot-clone
 
-## just practicing
+![screenshot of TickyBot Page]
 
-> - [ ] not done?
-
-- [x] done probably
-
-        - [ ] \(Optional) No idea.
+## Overview
