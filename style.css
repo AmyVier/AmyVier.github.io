@@ -1,3 +1,15 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -20%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -81,7 +93,6 @@
 #about.container > .row2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
 }
 
 #about.container > .row3 {
@@ -121,13 +132,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 #how.container > .row2 {
     display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: minmax(50px, 1fr) minmax(50px, 1fr) minmax(50px, 1fr);
+    justify-items: center;
+    height: fit-content;
+
+}
+
+.card {
+    background-color: blue;
+    width:90%;
+    height:initial;
+    margin-bottom: 50px;
+    padding-bottom: 400px;
+}
+
+.card > h1 {
+    background-color: antiquewhite;
+    position:relative;
+    top: 400px;
 }
 
 #start.container {
