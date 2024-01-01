@@ -6,18 +6,33 @@
 
 This projects aims to clone the TrickyBot main page using **HTML/CSS** and **JavaScript**.
 
-## Functionality
+## Features
 
-- HTML
-  - [ ] Navigation bar
-  - [ ] Header
-  - [ ] Content sections
-  - [ ] Footer
-- CSS
-  - [ ] Respond to width changes
-  - [ ] Color
-  - [ ] Font
-- JavaScript
-  - [ ] Smooth scrolling effect to the corresponding section that was clicked from the navbar
-  - [ ] "Scroll to top" button smooth scroll to the top of the page when clicked
-  - [ ] 'Add to Slack' button on the page redirect to the slack.com page
+### Structure
+
+This website has the same stucture and content of the TrickyBot main page:
+
+- [ ] Navigation bar
+- [ ] Header
+- [ ] Content sections
+- [ ] Footer
+
+### Style
+
+This website has the similar style of the TrickyBot main page:
+
+- [ ] Respond to width changes
+- [ ] Color
+- [ ] Font
+
+### Functionality
+
+This website has the same functionality of the TrickyBot main page exluding the animations:
+
+- [ ] Smooth scrolling effect to the corresponding section that was clicked from the navbar
+- [ ] "Scroll to top" button smooth scroll to the top of the page when clicked
+- [ ] 'Add to Slack' button on the page redirect to the slack.com page
+
+## Running The Project
+
+Website link: https://amyvier.github.io/
