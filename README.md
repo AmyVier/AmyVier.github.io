@@ -27,7 +27,7 @@ This website has the similar style of the TrickyBot main page:
 
 ### Functionality
 
-This website has the same functionality of the TrickyBot main page exluding the animations:
+This website has the same functionality of the TrickyBot main page exluding the fade in and button animations:
 
 - [ ] Smooth scrolling effect to the corresponding section that was clicked from the navbar
 - [ ] "Scroll to top" button smooth scroll to the top of the page when clicked
