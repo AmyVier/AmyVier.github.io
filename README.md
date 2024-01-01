@@ -4,13 +4,13 @@
 
 ## Overview
 
-This projects aims to clone the TrickyBot main page using **HTML/CSS** and **JavaScript**.
+This projects aims to clone the [TrickyBot main page](https://maknetaro.github.io/tickyBot/?ref=https://githubhelp.com) using **HTML/CSS** and **JavaScript**.
 
 ## Features
 
 ### Structure
 
-This website has the same stucture and content of the [TrickyBot main page](https://maknetaro.github.io/tickyBot/?ref=https://githubhelp.com):
+This website has the same stucture and content of the TrickyBot main page:
 
 - [ ] Navigation bar
 - [ ] Header
