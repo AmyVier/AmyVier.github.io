@@ -7,21 +7,32 @@
   </head>
 
   <body>
+    <script src="script.js"></script>
+
     <div class="container" id="navigation_bar">
       <div class="row1">
-        <h2>Home</h2>
-        <h2>About</h2>
-        <h2>Features</h2>
-        <h2>Add to Stack</h2>
+        <h2 id="goHome">Home</h2>
+        <h2 id="goAbout">About</h2>
+        <h2 id="goFeatures">Features</h2>
+
+        <a href="https://slack.com/">
+          <h2>Add to Slack</h2>
+        </a>
       </div>
     </div>
 
     <div class="container" id="home">
       <div class="row1">
         <div id="left">
-          <h1><b>Ticky</b>Bot</h1>
-          <h2>Let your team manage their support tickets 100% inside Slack</h2>
-          <h1>Add to Slack</h1>
+          <h1 style="font-size: 70px"><b>Ticky</b>Bot</h1>
+          <h2 id="homeLet">
+            Let your team manage their support tickets 100% inside Slack
+          </h2>
+
+          <a href="https://slack.com/" class="button" id="homeButton">
+            <img src="rotate.png" class="rotateImg" />
+            <h2>Add to Slack</h2>
+          </a>
         </div>
 
         <div id="right">
@@ -68,16 +79,24 @@
 
       <div class="row2">
         <div class="card" id="pic1">
-          <h1>
-            heyljkljk lkjhlkjhlkjh kljhkhjll kjhkhjl lkjhlk jhlkj hlkj qer
-            reqwqreqwe qerqwreqwerrqweqrew qreqrewqrwerqew
-          </h1>
+          <p>
+            You can add TickyBot to your Slack workplace by scrolling down or
+            <a href="#copyright">clicking here</a>
+          </p>
         </div>
         <div class="card" id="pic2">
-          <h1>hey</h1>
+          <p>
+            Your users can open a ticket by typing
+            <span style="color: red">/ticket</span> and their message into the
+            chat field
+          </p>
         </div>
         <div class="card" id="pic3">
-          <h1>hey</h1>
+          <p>
+            Once you or another admin solved their problems you can type
+            <span style="color: red">/ticket close #id</span> to close the
+            ticket
+          </p>
         </div>
       </div>
     </div>
@@ -89,7 +108,10 @@
           TickyBot allows Slack teams to manage their support tickets 100%
           inside Slack, without having to switch between different apps.
         </p>
-        <h1>Add to Stack</h1>
+        <a href="https://slack.com/" class="button" id="startButton">
+          <img src="rotate.png" class="rotateImg" />
+          <h2>Add to Slack</h2>
+        </a>
         <p>... so you don't need to go back and forth with another app.</p>
       </div>
     </div>
@@ -97,12 +119,19 @@
     <div class="container" id="copyright">
       <div class="column1">
         <p>Made with ❤️ by maknetaRo</p>
-        <p>Source code is available on my GitHub page</p>
+        <p>
+          Source code is available on my
+          <a href="https://github.com/maknetaRo/tickyBot" id="github"
+            >GitHub page</a
+          >
+        </p>
         <p>
           The app is not created by, affiliated with, or supported by Slack
           Technologies, Inc
         </p>
       </div>
     </div>
+
+    <img src="top.png" id="goToTop" />
   </body>
 </html>
