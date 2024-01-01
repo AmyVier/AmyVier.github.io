@@ -192,15 +192,26 @@ h1, h2 {
     width:90%;
     height:initial;
     margin-bottom: 50px;
-    padding-bottom: 400px;
+    padding-bottom: 200px;
+
+    display: flex;
+    flex-direction: column;
+
 }
 
 .card > p {
     padding: 10px;
     background-color: antiquewhite;
     position:relative;
-    top: 400px;
+    top: 200px;
     text-align: center;
+}
+
+.picture {
+    height: 200px;
+    position:relative;
+    top: 100px;
+    align-self: center;
 }
 
 #start.container {

@@ -10,7 +10,7 @@ This projects aims to clone the TrickyBot main page using **HTML/CSS** and **Jav
 
 ### Structure
 
-This website has the same stucture and content of the TrickyBot main page:
+This website has the same stucture and content of the [TrickyBot main page](https://maknetaro.github.io/tickyBot/?ref=https://githubhelp.com):
 
 - [ ] Navigation bar
 - [ ] Header
